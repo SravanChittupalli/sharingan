@@ -7,7 +7,7 @@ import time
 sys.path.append('..')
 import sharingan
 
-img_original = cv2.imread(os.path.join('..', 'assets\chapter3_images\leaf.jpg'))
+img_original = cv2.imread(os.path.join('..', 'assets/chapter3_images/leaf.jpg'))
 
 prev = time.time()
 img_hsv = sharingan.bgr2hsv(img_original)
