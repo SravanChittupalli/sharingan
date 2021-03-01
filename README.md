@@ -102,7 +102,7 @@ To get a local copy up and running follow these simple example steps.
 
 * Anaconda/Miniconda
 
-### Installation
+### Setting up
 
 1. Clone the repo
    ```sh
