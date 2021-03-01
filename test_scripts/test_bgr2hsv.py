@@ -7,7 +7,8 @@ import time
 sys.path.append('..')
 import sharingan
 
-img_original = cv2.imread(os.path.join('..', 'assets\chapter3_images\leaf.jpg'))
+# img_original = cv2.imread(os.path.join('..', 'assets\chapter3_images\leaf.jpg'))
+img_original = cv2.imread(os.path.join('..', 'assets\shapes_colors.jfif'))
 
 prev = time.time()
 img_hsv = sharingan.bgr2hsv(img_original)
@@ -22,7 +23,7 @@ print("time taken hsv2bgr: ", time.time()-prev)
 f, axarr = plt.subplots(1,2)
 
 axarr[0].imshow(img_hsv[:,:,[2,1,0]])
-axarr[0].title.set_text('original')
+axarr[0].title.set_text('hsv')
 axarr[1].imshow(img_bgr[:,:,[2,1,0]])
 axarr[1].title.set_text('bgr')
 plt.show()
