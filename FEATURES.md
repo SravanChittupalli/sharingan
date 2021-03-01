@@ -1,26 +1,26 @@
 **Intensity Transforms**  
-[*] negative  
-[*] log_transform  
-[*] gamma_transform  
-[*] contrast_stretching  
+- [x] negative  
+- [x] log_transform  
+- [x] gamma_transform  
+- [x] contrast_stretching  
 
 **Change Color Space**  
-[*] bgr2gray  
-[*] gray2bgr  
-[*] bgr2hsv  
-[*] hsv2bgr  
+- [x] bgr2gray  
+- [x] gray2bgr  
+- [x] bgr2hsv  
+- [x] hsv2bgr  
 
 **Utils**  
-[*] in_range  
-[ ] threshold
+- [x] in_range  
+- [ ] threshold
 
 **Kernal**  
-[ ] average  
-[ ] filter2D  
-[ ] bilateral_filter  
+- [ ] average  
+- [ ] filter2D  
+- [ ] bilateral_filter  
 
 **Histogram**  
-[ ] create_histogram  
-[ ] histogram_stretching  
-[ ] histogram equalization  
+- [ ] create_histogram  
+- [ ] histogram_stretching  
+- [ ] histogram equalization  
 
