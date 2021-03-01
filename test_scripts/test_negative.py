@@ -5,7 +5,7 @@ import sys
 sys.path.append('..')
 import sharingan
 
-img = cv2.imread(os.path.join('..', 'assets\chapter3_images\Fig0304(a)(breast_digital_Xray).tif'))
+img = cv2.imread(os.path.join('..', 'assets/chapter3_images/Fig0304(a)(breast_digital_Xray).tif'))
 
 img = sharingan.negative(img)
 
