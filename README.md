@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I guess everyone must have used opencv at least once and it is a really good library for image processing. The problem is that we are soo much reliant on it that we generally tend to missout on the implementation. I have done the same and made projects by just importing `cv2` and  using the plethora of functions it provides. Therefore I am starting this repo to work with pixels and produce the same magic that opencv produces.
+I guess everyone must have used opencv at least once and it is a really good library for image processing. The problem is that we are soo much reliant on it that we generally tend to missout on the implementation. I have done the same and made projects by just importing `cv2` and  using the plethora of functions it provides but I found some gaps in my knowledge which can only be cleared by implementing things from scratch. Therefore I am starting this repo to work with raw pixel values and produce the same magic that opencv produces.
 
 ### Built With
 
@@ -178,21 +178,6 @@ Project Link: [https://github.com/SravanChittupalli/sharingan](https://github.co
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
 
 
 
@@ -207,7 +192,7 @@ Project Link: [https://github.com/SravanChittupalli/sharingan](https://github.co
 [issues-shield]: https://img.shields.io/github/issues/SravanChittupalli/sharingan.svg?style=for-the-badge
 [issues-url]: https://github.com/SravanChittupalli/sharingan/issues
 [license-shield]: https://img.shields.io/github/license/SravanChittupalli/sharingan.svg?style=for-the-badge
-[license-url]: https://github.com/SravanChittupalli/sharingan/blob/master/LICENSE.txt
+[license-url]: https://github.com/SravanChittupalli/sharingan/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
