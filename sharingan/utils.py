@@ -19,6 +19,8 @@ def pp_in_range(img, all_ranges):
                 [[red_min,red_max], [green_min,green_max], [blue_min,blue_max]]
 
     @output: A 2D image with the pixels in specified range of input image are represented as white pixels in output image.
+
+    Parallel Processing reference: https://www.machinelearningplus.com/python/parallel-processing-python/
     '''
     range_channel_1, range_channel_2, range_channel_3 = all_ranges
 
